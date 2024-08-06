@@ -1,0 +1,90 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f9f5;
+    color: #333;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #90d4d3;
+    text-align: center;
+    font-weight: bold;
+    border: 0;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #3665b0;
+    text-align: center;
+    font-weight: bold ;
+}
+
+.fixed-top {
+    background-color: #31a2dc !important;
+    padding: 0;
+}
+
+.nav-container{
+    background-color: #31a2dc;
+    color: #d1eada;
+    justify-content: space-evenly;
+    text-align: center;
+    border: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #90d4d3;
+    border: 0;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.carousel-inner{
+    max-width: 80%;
+}
+.carousel-item img.zoom {
+    transition: transform 0.5s ease;
+}
+
+.carousel-item img.zoom:hover {
+    transform: scale(1.1);
+}
+
+.card-img-top.zoom {
+    transition: transform 0.5s ease;
+}
+
+.card-img-top.zoom:hover {
+    transform: scale(1.1);
+}
+
+.card-text {
+    display: none;
+    text-align: center;
+    color: #31a2dc;
+    margin-top: 10px;
+}
+
+section {
+    padding: 20px;
+}
+
+.quiz-container {
+    font-size: 14px;
+    flex-direction: column;
+}
+
+.button{    
+    background-color: #3665b0;
+    color: #f3f9f5;
+    border-radius: 10px 20px 10px;
+}
+.quiz-result {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.b {
+    color: #31a2dc;
+}
